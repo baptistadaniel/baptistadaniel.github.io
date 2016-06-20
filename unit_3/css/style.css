@@ -8,12 +8,14 @@ body {
 
 h1 {
 	font-size: 36px;
+	width: 600px;
 }
 
 p {
 	font-size: 18px;
+	width: 600px;
 }
 
 hr {
-	width: 600px;
+	width: 600px
 }
