@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+body {
+	background-image: url("file:///Users/danielbaptista/Dropbox%20(MUSICA%CC%81RIO)/GITHUB/baptistadaniel.github.io/unit_4/images/home-office.jpeg");
+	background-size: cover;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+h1 {
+	padding-left: 60px;
+	padding-right: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 100px;
+	line-height: 1;
+	color: #2a2b2f;
+	display: block;
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#aboutme {
+	padding-left: 60px;
+	padding-right: 100px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+	color: #9b9eab;
+}
