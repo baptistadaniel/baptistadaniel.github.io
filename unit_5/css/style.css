@@ -93,10 +93,17 @@ li {
 .work {
 	color: #efefef;
 	display: inline-block;
-	height: 580px;
-	padding: 170px 2em 2em 2em;
 	text-align: center;
-	width: 580px
-	background-image: url("https://images.unsplash.com/photo-1443683263937-3e377546e8a8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f0e510f5dbccb418fb3a9c407485985b");
-	background-size: cover;
+	width: 50%;
+	padding: 0;
+	position:relative;
+}
+.work img {
+	width:100%;
+}
+.overlay {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
 }
