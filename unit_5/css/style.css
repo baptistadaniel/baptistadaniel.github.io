@@ -2,76 +2,26 @@
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	margin-left: 60px;
-	margin-right: 60px;
-}
-h1 {
-	color: #2a2b2f;
-	display: block;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	text-transform: uppercase;
-}
-h2 {
-	color: #2a2b2f;
-	display: block;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 100px;
-	line-height: 1;
-	margin-bottom: 60px;
-}
-h3 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 72px;
-	margin-bottom: 50px;
-}
-h4 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: .4em;
-	margin-bottom: 60px;
-	text-transform: uppercase;
-}
-h5 {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 36px;
-}
-p {
-	font-family: 'Montserrat', sans-serif;
-}
-span {
-	border: 1px white solid;
-	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 11px;
-	font-weight: 400;
-	height: 50px;
-	text-transform: uppercase;
-	width: 190px;
-}
-li {
-	display: inline;
-	padding: 0 0 0 2em;
+	font-family: 'Titillium Web', sans-serif;
+	font-size:16px;
 }
 header {
 	background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 20px;
 }
 nav {
 	color: #2a2b2f;
-	font-family: 'Montserrat', sans-serif;
 	font-size: 11px;
 	text-transform: uppercase;
 	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 20px;
 }
 footer {
 	background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
+	border: 1px black solid;
+	padding: 20px;
 }
 section {
 	background-color: #FFE2B8;
@@ -84,9 +34,49 @@ section#splash {
 	height:90vh;
 	padding: 5em;
 }
+h1, h2,h3,h4,h5,h6,span,p,nav {
+	font-family: 'Montserrat', sans-serif;
+}
+h1 {
+	color: #2a2b2f;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+h2 {
+	color: #2a2b2f;
+	font-size: 100px;
+	line-height: 1;
+	margin-bottom: 60px;
+}
+h3 {
+	font-size: 72px;
+	margin-bottom: 50px;
+}
+h4 {
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: .4em;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+h5 {
+	font-size: 36px;
+}
+span {
+	border: 1px white solid;
+	display: inline-block;
+	font-size: 11px;
+	font-weight: 400;
+	height: 50px;
+	text-transform: uppercase;
+	width: 190px;
+}
+li {
+	display: inline;
+	padding: 0 0 0 2em;
+}
 #aboutme {
 	color: #9b9eab;
-	font-family: 'Titillium Web', sans-serif;
 	font-size: 24px;
 	line-height: 40px;
 	padding: 0 100px 0 0;
@@ -107,8 +97,6 @@ section#splash {
 	padding: 170px 2em 2em 2em;
 	text-align: center;
 	width: 580px
-}
-.work {
 	background-image: url("https://images.unsplash.com/photo-1443683263937-3e377546e8a8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=f0e510f5dbccb418fb3a9c407485985b");
 	background-size: cover;
 }
