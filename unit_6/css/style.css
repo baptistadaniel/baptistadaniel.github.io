@@ -18,7 +18,7 @@ nav a {
 	padding-left: 2em;
 }
 section#splash {
-	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/splash.jpg");
+	background-image: url("http://baptistadaniel.github.io/unit_6/images/splash.jpg");
 	background-size: cover;
 	height:90vh;
 	padding: 1em;
@@ -79,12 +79,12 @@ a {
 	width: 49%;
 }
 #featured_left {
-	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/featured.jpg");
+	background-image: url("http://baptistadaniel.github.io/unit_6/images/wbbd.jpg");
 	background-size: cover;
   	margin-right: 1%;
 }
 #featured_right {
-	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/featured.jpg");
+	background-image: url("http://baptistadaniel.github.io/unit_6/images/brasas.jpg");
 	background-size: cover;
 	margin-left: 1%;
 }
@@ -95,17 +95,22 @@ a {
 	padding: 1em;
 	width: 32%;
 }
-#column1, #column2 {
-	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/secundary.jpg");
+#column1 {
+	background-image: url("http://baptistadaniel.github.io/unit_6/images/combate.jpg");
+	background-size: cover;
+  	margin-right: 2%;
+}
+#column2 {
+	background-image: url("http://baptistadaniel.github.io/unit_6/images/boa-vista.jpg");
 	background-size: cover;
   	margin-right: 2%;
 }
 #column3 {
-	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/secundary.jpg");
+	background-image: url("http://baptistadaniel.github.io/unit_6/images/maisport.jpg");
 	background-size: cover;
 }
 #banner {
-	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/banner.jpg");
+	background-image: url("http://baptistadaniel.github.io/unit_6/images/banner.jpg");
 	background-size: cover;
 	height: 170px;
 	padding: 4.25em;
