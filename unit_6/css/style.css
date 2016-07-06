@@ -1,107 +1,124 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
 * { margin:0; padding:0; box-sizing:border-box; }
+#wrapper {
+	margin: 0 2em;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size:16px;
 }
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
+	margin: 2em 0 2em 0;
 }
 nav {
-	color: #2A2B2F;
-	font-size: 11px;
-	text-transform: uppercase;
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+	float: right;
 }
-footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
-}
-section {
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+nav a {
+	color: #000;
+	padding-left: 2em;
 }
 section#splash {
-	background-image: url("http://baptistadaniel.github.io/unit_6/images/home-office.jpeg");
+	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/splash.jpg");
 	background-size: cover;
 	height:90vh;
-	padding: 5em;
+	padding: 1em;
+	margin-bottom: 2%;
 }
 h1 {
-	color: #2A2B2F;
-	font-size: 1.375em;
+	font-size: 1.5em;
+	font-weight: 700;
+	letter-spacing: .1em;
 	text-transform: uppercase;
 }
 h2 {
-	color: #2A2B2F;
-	font-size: 5.625em;
+	background: #FFF;
+	display: inline-block;
+	font-size: 3.75em;
 	font-weight: 700;
-	margin-bottom: 60px;
+	margin-bottom: .25em;
+	padding: .25em;
 }
 h3 {
-	font-size: 72px;
-	margin-bottom: 50px;
+	background: #FFF;
+	color: #000;
+	display: inline-block;
+	font-size: 1.875em;
+	font-weight: 700;
+	padding: .5em;
 }
 h4 {
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: .4em;
-	margin-bottom: 60px;
+	background: #FFF;
+	color: #000;
+	display: inline-block;
+	padding: .75em 1em;
+	margin-bottom: 1em;
 	text-transform: uppercase;
 }
 h5 {
-	font-size: 36px;
+	color: #FFF;
+	font-size: 1.875em;
+	font-weight: 700;
+	text-align: center;
 }
-span {
-	border: 1px white solid;
-	display: inline-block;
-	font-size: 11px;
+a {
+	text-decoration: none;
+}
+#about_me {
+	background: #FFF;
+	padding: .625em;
+	font-size: 1.5em;
 	font-weight: 400;
-	height: 50px;
-	text-transform: uppercase;
-	width: 190px;
+	line-height: 1.25;
+	margin-right: 25%;
 }
-li {
-	display: inline;
-	padding: 0 0 0 2em;
+.featured {
+	float: left;
+	height: 450px;
+	margin-bottom: 2%;
+	padding: 1em;
+	width: 49%;
 }
-#aboutme {
-	color: #9b9eab;
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 1.375em;
-	line-height: 1.5;
-	padding: 0 4.5em 0 0;
+#featured_left {
+	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/featured.jpg");
+	background-size: cover;
+  	margin-right: 1%;
+}
+#featured_right {
+	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/featured.jpg");
+	background-size: cover;
+	margin-left: 1%;
+}
+.three_column {
+	float: left;
+	height: 610px;
+	margin-bottom: 2%;
+	padding: 1em;
+	width: 32%;
+}
+#column1, #column2 {
+	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/secundary.jpg");
+	background-size: cover;
+  	margin-right: 2%;
+}
+#column3 {
+	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/secundary.jpg");
+	background-size: cover;
 }
 #banner {
-	background: #2A2B2F;
-	color: #efefef;
-	display: inline-block;
-	height: 220px;
-	padding: 66px 0 0 0;
+	background-image: url("file:///Users/danielbaptista/Desktop/portfolio/images/banner.jpg");
+	background-size: cover;
+	height: 170px;
+	padding: 4.25em;
+}
+footer {
+	padding: 6.25em;
 	text-align: center;
-	width: 100%;
 }
-.work {
-	color: #efefef;
-	display: inline-block;
-	text-align: center;
-	width: 50%;
-	padding: 0;
-	position:relative;
-}
-.work img {
-	width:100%;
-}
-.overlay {
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%, -50%);
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
