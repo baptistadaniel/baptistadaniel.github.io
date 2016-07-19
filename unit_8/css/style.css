@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+* { margin:0; padding:0; box-sizing:border-box; }
+#wrapper {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 95%;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+}
+header {
+	margin: 2em 0 2em 0;
+}
+nav {
+	float: right;
+}
+nav a {
+	color: #000;
+	padding-left: 2em;
+}
+section#splash {
+	background-image: url("http://baptistadaniel.github.io/unit_6/images/splash.jpg");
+	background-size: cover;
+	height:90vh;
+	padding: 1em;
+	margin-bottom: 2%;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+h2 {
+	background: #FFF;
+	display: inline-block;
+	font-size: 3.75em;
+	font-weight: 700;
+	margin-bottom: .25em;
+	padding: .25em;
+}
+h3 {
+	background: #FFF;
+	color: #000;
+	display: inline-block;
+	font-size: 1.875em;
+	font-weight: 700;
+	padding: .5em;
+}
+h4 {
+	background: #FFF;
+	color: #000;
+	display: inline-block;
+	padding: .75em 1em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+h5 {
+	color: #FFF;
+	font-size: 1.875em;
+	font-weight: 700;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+#about_me {
+	background: #FFF;
+	padding: .625em;
+	font-size: 1.5em;
+	font-weight: 400;
+	line-height: 1.25;
+	margin-right: 25%;
+}
+.featured {
+	float: left;
+	height: 450px;
+	margin-bottom: 2%;
+	padding: 1em;
+	width: 49%;
+}
+#featured_left {
+	background-image: url("../images/wbbd.jpg");
+	background-size: cover;
+  	..
+}
+#featured_right {
+	background-image: url("../images/brasas.jpg");
+	background-size: cover;
+	margin-left: 1%;
+}
+.three_column {
+	float: left;
+	height: 610px;
+	margin-bottom: 2%;
+	padding: 1em;
+	width: 32%;
+}
+#column1 {
+	background-image: url("../images/combate.jpg");
+	background-size: cover;
+  	margin-right: 2%;
+}
+#column2 {
+	background-image: url("../images/boa-vista.jpg");
+	background-size: cover;
+  	margin-right: 2%;
+}
+#column3 {
+	background-image: url("../images/maisport.jpg");
+	background-size: cover;
+}
+#banner {
+	background-image: url("../images/banner.jpg");
+	background-size: cover;
+	float: left;
+	height: 170px;
+	padding: 4.25em;
+	width: 100%;
+}
+footer {
+	clear: both;
+	padding: 6.25em;
+	text-align: center;
+}
+@media (max-width: 1200px) {
+	.three_column {
+		height: 450px;
+	}
+	.secundary {
+		font-size: 1.5em;
+	}
+}
+@media (max-width: 980px) {
+	#column1, #column2 {
+		height: 300px;
+		width: 49%;
+	}
+	#column2 {
+		margin-right: 0;
+	}
+	#column3 {
+		height: 300px;
+		width: 100%;
+	}
+}
+@media (max-width: 768px) {
+	section#splash {
+		height: 75vh;
+	}
+	#greeting {
+		font-size: 2.25em;
+	}
+	#about_me {
+		font-size: 1.25em;
+		width: 75%;
+	}
+	.featured {
+		width: 100%;
+	}
+	#featured_left {
+		margin-right: 0;
+	}
+	#featured_right {
+		margin-left: 0;
+	}
+	#column1 {
+		height: 300px;
+		margin-right: 0;
+		width: 100%;
+	}
+	#column2 {
+		height: 300px;
+		margin-right: 0;
+		width: 100%;
+	}
+}
+@media (max-width: 480px) {
+	section#splash {
+		height: 50vh;
+	}
+	#about_me {
+		width: 100%;
+	}
+	.primary {
+		font-size: 1.5em;
+	}
+	#featured_left, #featured_right, #column1, #column2, #column3 {
+		height: 250px;
+		margin-right: 0;
+		width: 100%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
